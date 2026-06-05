@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+groq
+anthropic
+langchain
+langchain-groq
+langchain-community
+langchain-core
+langgraph
+langgraph-prebuilt
+chromadb
+sentence-transformers
+crewai
+pydantic
+python-dotenv
+httpx

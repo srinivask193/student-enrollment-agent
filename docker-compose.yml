@@ -1,0 +1,11 @@
+services:
+  enrollment-agent:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - DB_PATH=/app/data/enrollment_memory.db
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
